@@ -82,7 +82,7 @@ public class Photosynthesis extends Application {
 			if (screen.isVisible() == false) {
 				hbox.setVisible(true);
 				for (GameObject element : list) {
-					element.update();
+					element.update(); //elements meaning sun,water and co2
 				}
 				pod.update(); //Draw Player pod on canvas 
 				grow.update();//Draw plant growth on canvas 
